@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+.boatpic{
+    outline: solid 4px  lime;
+    position: absolute;
+    left: 50px;
+    margin-top: 950px;
+    width: 30%;
+    height: 50%;
+}

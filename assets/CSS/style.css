@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
 ul li {
     position: relative;
-    left: 50px;
+    left: 170px;
     margin-right: 2px;
     float: left;
     width: 200px;
