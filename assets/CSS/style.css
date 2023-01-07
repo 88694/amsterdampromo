@@ -34,6 +34,10 @@ ul{
     list-style: none;
 }
 
+a{
+    color: white;
+}
+
 ul li a {
     text-decoration: none;
     display: block;
@@ -72,11 +76,41 @@ ul li a {
 }
 
 .footer{
-    position: fixed;
+    position: relative;
+    margin: 55px;
+    left: 30px;
     bottom: 0;
-    left: 0;
-    right: 0;
+    padding: 0;
     background: black;
-    width: 100%;
+    color: white;
+    width: 93%;
     height: 80px;
+}
+
+.footerdivleft{
+    width: 30%;
+    font-size: 20px;
+    float: left;
+}
+
+.footerdivright{
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    width: 30%;
+    font-size: 20px;
+    float: right;
+}
+
+.footerdivmiddle{
+    position: relative;
+    bottom: 20px;
+    padding-left: 10px;
+}
+
+.footer-line{
+    margin-left: -5px;
+    width: 92%;
+    height: 2px;
+    background: white;
 }

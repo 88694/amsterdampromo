@@ -1,5 +1,6 @@
 body{
     background: black;
+    min-height: 250vh;
 }
 
 .backline{
@@ -10,7 +11,7 @@ body{
     outline: solid 4px plum;
     position: relative;
     display: grid (2, 2fr);
-    left: 50px;
+    left: 70px;
     top: 10px;
     margin-top: 950px;
     margin-bottom: 30px;
