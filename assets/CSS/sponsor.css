@@ -1,0 +1,58 @@
+body{
+    font-family: PPNeueMachina,sans-serif!important;
+    background: black;
+    font-size: 140%;
+    color: white;
+    text-decoration: none;
+    min-height: 200vh;
+}
+
+
+.btn{
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    margin-left: 20px;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    width: 70%;
+}
+
+h3{
+    font-size: 70px;
+}
+
+hr{
+    width: 100%;
+}
+
+img{
+    max-width: 80%;
+}
+
+.mailbtn{
+    color: white;
+}
+
+.mailbtn:hover{
+    color: red;
+}
+
+.divfestival{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    align-items: center;
+}
+
+.containerdiv{
+    position: relative;
+    left: 270px;
+    width: 60%;
+}

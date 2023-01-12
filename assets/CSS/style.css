@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    left: 170px;
+    margin-right: 2px;
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: lavender;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    z-index: 0;  
+}
+
+
+ul li a:hover {
+    background-color: lightskyblue;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: white;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    color:black;
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+}
+
+
+.navbar-sticky{
+    position: fixed;
+    background-color: teal;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+}
+
+.menu{
+    background-color: black;
+}
+
+.logo{
+    float: left;
+    width: 15%;
+    filter: brightness(20%);
+}
+
+.updatediv{
+    color: black;
+}
+
+.footer{
+    position: relative;
+    margin: 55px;
+    left: 30px;
+    bottom: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    width: 93%;
+    height: 80px;
+}
+
+.footerdivleft{
+    width: 30%;
+    font-size: 20px;
+    float: left;
+}
+
+.footerdivright{
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    width: 30%;
+    font-size: 20px;
+    float: right;
+}
+
+.footerdivmiddle{
+    position: relative;
+    bottom: 20px;
+    padding-left: 10px;
+}
+
+.footer-line{
+    margin-left: -5px;
+    width: 92%;
+    height: 2px;
+    background: white;
+}

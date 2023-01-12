@@ -1,0 +1,26 @@
+body{
+    background: black;
+    min-height: 250vh;
+}
+
+.backline{
+    display: grid;
+}
+
+.boatpic{
+    outline: solid 4px plum;
+    position: relative;
+    display: grid (2, 2fr);
+    left: 70px;
+    top: 10px;
+    margin-top: 950px;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 50%;
+    transition: transform .2s;
+}
+
+.boatpic:hover{
+    transform: scale(1.2);
+    z-index: 200;
+}

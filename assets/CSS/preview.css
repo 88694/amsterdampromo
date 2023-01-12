@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.loremp{
+    margin-top: 800px;
+}
+
+.previewdiv{
+    width: 90%;
+    height: 75vh;
+    outline: solid 2px aqua;    
+    margin-top: 150px;
+    margin-left: 75px;
+}
+
+.divimg{
+    width: 100%;
+    height: 100%;
+}
+
+.previewdiv2{
+    width: 45%;
+    height: 110vh;
+    outline: solid 2px aqua;    
+    margin-top: 150px;
+    margin-left: 75px;
+}
